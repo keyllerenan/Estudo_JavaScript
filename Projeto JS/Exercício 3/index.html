@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Calcule o seu IMC</h1>
+        <p>
+            O Índice de Massa Corporal (IMC) é uma medida utilizada para avaliar se uma pessoa está com o peso adequado em relação à
+            sua altura. Ele é calculado dividindo-se o peso da pessoa em quilogramas pelo quadrado da sua altura em metros.</p>
+            
+        <p>
+            O IMC é amplamente utilizado como uma ferramenta de triagem para identificar possíveis problemas de peso. Os valores de
+            referência do IMC são geralmente divididos em faixas que indicam diferentes categorias de peso: </p>
+        
+            <p>Abaixo do peso: IMC menor que 18,5.</p>
+            <p>Peso normal: IMC entre 18,5 e 24,9.</p>
+            <p> Sobrepeso: IMC entre 25 e 29,9.</p>
+            <p> Obesidade: IMC igual ou superior a 30.</p>
+
+            <form action="" id="form" method="post">
+                <label for="inputPeso">Peso</label>
+                <input type="text" id="inputPeso">
+              
+                <label for="inputAltura">Altura</label>
+                <input type="text" id="inputAltura">
+              
+                <button type="submit" id="btnEnviar">Enviar</button>
+              </form>
+
+    <div id="resultado"></div>   
+    </section>
+
+<script src="./assets/js/main.js"></script>
+</body>
+
+</html>

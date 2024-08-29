@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://./assets/js/main.js",
+            "request": "launch",
+            "url": "http://./assets/js/main.js"
+        }
+    ]
+}
